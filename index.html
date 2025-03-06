@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./font awesome/all.min.css" />
+    <script
+      defer
+      src="./bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script defer src="./font awesome/all.min.js"></script>
+    <style>
+      .nav-item a:hover {
+        color: white !important;
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <header class="vh-100 b">
+      <div class="container w-75">
+        <h1>The Flower Blog</h1>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+        <div class="container w-75">
+          <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav flex-lg-row justify-content-between w-100 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Plog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Archives</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">
+                  <i class="fa-solid fa-house-signal text-danger"></i>
+                  Subscribe via. RSS</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container w-75 py-5 h-75">
+        <div class="card h-100 m-auto mt-5 rounded-4">
+          <img
+            src="./Images/intro_flower.png"
+            class="img-fluid object-fit-fill h-100 rounded-4"
+            alt="..." />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-lg-center">
+            <h5 class="card-title text-white pt-3">
+              Do you love flowers as much as we do?
+            </h5>
+            <p class="card-text text-white pt-2">
+              <small
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                <br />
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <br />
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut.</small
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="container w-75 mb-3">
+      <div class="row">
+        <div class="col-md-8 p-2 text-muted">
+          <h2 class="fw-bold text-dark">This is the title of a blog post</h2>
+          <h6 class="py-3 fst-italic text-dark">
+            Posted on June 29th 2009 by
+            <a
+              href="#"
+              class="text-dark link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2">
+              Mads Kjaer </a
+            >-
+            <a
+              class="link text-dark link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2"
+              >3 comments</a
+            >
+          </h6>
+          <p class="">
+            <small>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              euismod tellus eu orci imperdiet nec rutrum lacus blandit. Cras
+              enim nibh, sodales ultricies elementum vel, fermentum id tellus.
+              Proin metus odio, ultricies eu pharetra dictum, laoreet id odio.
+              Curabitur in odio augue. Morbi congue auctor interdum. Phasellus
+              sit amet metus justo. Phasellus vitae tellus orci, at elementum
+              ipsum. In in quam eget diam adipiscing condimentum. Maecenas
+              gravida diam vitae nisi convallis vulputate quis sit amet nibh.
+              Nullam ut velit tortor. Curabitur ut elit id nisl volutpat
+              consectetur ac ac lorem. Quisque non elit et elit lacinia lobortis
+              nec a velit. Sed ac nisl sed enim consequat porttitor.
+            </small>
+          </p>
+          <img class="py-3 img-fluid" src="./Images/flower.png" alt="" />
+          <p class="fst-italic">This is a beautiful flower</p>
+          <p class="">
+            <small>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              euismod tellus eu orci imperdiet nec rutrum lacus blandit. Cras
+              enim nibh, sodales ultricies elementum vel, fermentum id tellus.
+              Proin metus odio, ultricies eu pharetra dictum, laoreet id odio.
+              Curabitur in odio augue. Morbi congue auctor interdum. Phasellus
+              sit amet metus justo. Phasellus vitae tellus orci, at elementum
+              ipsum. In in quam eget diam adipiscing condimentum. Maecenas
+              gravida diam vitae nisi convallis vulputate quis sit amet nibh.
+              Nullam ut velit tortor. Curabitur ut elit id nisl volutpat
+              consectetur ac ac lorem. Quisque non elit et elit lacinia lobortis
+              nec a velit. Sed ac nisl sed enim consequat porttitor.
+            </small>
+          </p>
+          <p class="py-3">
+            <small>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              euismod tellus eu orci imperdiet nec rutrum lacus blandit. Cras
+              enim nibh, sodales ultricies elementum vel, fermentum id tellus.
+              Proin metus odio, ultricies eu pharetra dictum, laoreet id odio.
+              Curabitur in odio augue. Morbi congue auctor interdum. Phasellus
+              sit amet metus justo. Phasellus vitae tellus orci, at elementum
+              ipsum. In in quam eget diam adipiscing condimentum. Maecenas
+              gravida diam vitae nisi convallis vulputate quis sit amet nibh.
+              Nullam ut velit tortor. Curabitur ut elit id nisl volutpat
+              consectetur ac ac lorem. Quisque non elit et elit lacinia lobortis
+              nec a velit. Sed ac nisl sed enim consequat porttitor.
+            </small>
+          </p>
+          <hr />
+          <h6 class="text-dark py-3">Comments</h6>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne">
+                  George Washington on June 29th 2009 at 23:35
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item my-3">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo">
+                  Benjamin Franklin on June 29th 2009 at 23:40
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree">
+                  Barack Obama on June 29th 2009 at 23:59
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut.
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <h6 class="text-dark py-3">Post a comment</h6>
+          <form class="px-3" action="">
+            <div class="mb-3 m-auto">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1" />
+            </div>
+
+            <div class="mb-3 m-auto">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email
+              </label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1" />
+            </div>
+            <div class="mb-3 m-auto">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Web site</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Comment</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"></textarea>
+            </div>
+            <div class="text-center">
+              <button type="button" class="btn btn-outline-success">
+                Post Comment
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="d-none col-md-4 d-md-block rounded-3 bg-body-secondary">
+          <div class="bg-secondary-subtle rounded-3 p-3 my-3">
+            <p>Categories</p>
+            <ul class="list-unstyled m-auto px-3">
+              <li class="">
+                <a
+                  href="#"
+                  class="link text-muted link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2"
+                  >Lorem, ipsum.</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link text-muted link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2"
+                  >Lorem, ipsum</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link text-muted link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2"
+                  >Lorem, ipsum</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link text-muted link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2"
+                  >Lorem, ipsum</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link text-muted link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2"
+                  >Lorem, ipsum</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="bg-secondary-subtle rounded-3 p-3">
+            <p>Archives</p>
+            <ul class="list-unstyled m-auto px-3">
+              <li>
+                <a
+                  href="#"
+                  class="link text-muted link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2">
+                  December 2008
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link text-muted link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2">
+                  January 2009
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link text-muted link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2">
+                  February 2009
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link text-muted link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2">
+                  March 2009
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link text-muted link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2">
+                  April 2009
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link text-muted link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2">
+                  May 2009
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link text-muted link-underline-secondary link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2">
+                  June 2009
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark">
+      <div class="container w-75">
+        <div class="row text-white justify-content-between py-4">
+          <div class="col-md-4">
+            <p>About</p>
+            <p class="ps-1 text-secondary">
+              <small>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </small>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p>Blogroll</p>
+            <ul>
+              <li class="text-secondary py-1">
+                <a
+                  href="#"
+                  class="link text-secondary link-underline-secondary link-underline-opacity-100 link-underline-opacity-0-hover link-offset-1"
+                  >Lorem, ipsum.</a
+                >
+              </li>
+
+              <li class="text-secondary">
+                <a
+                  href="#"
+                  class="link text-secondary link-underline-secondary link-underline-opacity-100 link-underline-opacity-0-hover link-offset-1"
+                  >Lorem, ipsum.</a
+                >
+              </li>
+              <li class="text-secondary py-1">
+                <a
+                  href="#"
+                  class="link text-secondary link-underline-secondary link-underline-opacity-100 link-underline-opacity-0-hover link-offset-1"
+                  >Lorem, ipsum.</a
+                >
+              </li>
+              <li class="text-secondary">
+                <a
+                  href="#"
+                  class="link text-secondary link-underline-secondary link-underline-opacity-100 link-underline-opacity-0-hover link-offset-1"
+                  >Lorem, ipsum.</a
+                >
+              </li>
+              <li class="text-secondary py-1">
+                <a
+                  href="#"
+                  class="link text-secondary link-underline-secondary link-underline-opacity-100 link-underline-opacity-0-hover link-offset-1"
+                  >Lorem, ipsum.</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <p>Popular</p>
+            <ul>
+              <li class="text-secondary py-1">
+                <a
+                  href="#"
+                  class="link text-secondary link-underline-secondary link-underline-opacity-100 link-underline-opacity-0-hover link-offset-1"
+                  >Lorem ipsum dolor sit amet</a
+                >
+              </li>
+              <li class="text-secondary">
+                <a
+                  href="#"
+                  class="link text-secondary link-underline-secondary link-underline-opacity-100 link-underline-opacity-0-hover link-offset-1"
+                  >Lorem ipsum dolor sit amet</a
+                >
+              </li>
+              <li class="text-secondary py-1">
+                <a
+                  href="#"
+                  class="link text-secondary link-underline-secondary link-underline-opacity-100 link-underline-opacity-0-hover link-offset-1"
+                  >Lorem ipsum dolor sit amet</a
+                >
+              </li>
+              <li class="text-secondary">
+                <a
+                  href="#"
+                  class="link text-secondary link-underline-secondary link-underline-opacity-100 link-underline-opacity-0-hover link-offset-1"
+                  >Lorem ipsum dolor sit amet</a
+                >
+              </li>
+              <li class="text-secondary py-1">
+                <a
+                  href="#"
+                  class="link text-secondary link-underline-secondary link-underline-opacity-100 link-underline-opacity-0-hover link-offset-1"
+                  >Lorem ipsum dolor sit amet</a
+                >
+              </li>
+              <li class="text-secondary">
+                <a
+                  href="#"
+                  class="link text-secondary link-underline-secondary link-underline-opacity-100 link-underline-opacity-0-hover link-offset-1"
+                  >Lorem ipsum dolor sit amet</a
+                >
+              </li>
+              <li class="text-secondary py-1">
+                <a
+                  href="#"
+                  class="link text-secondary link-underline-secondary link-underline-opacity-100 link-underline-opacity-0-hover link-offset-1"
+                  >Lorem ipsum dolor sit amet</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
