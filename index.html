@@ -19,12 +19,11 @@
     </style>
   </head>
   <body class="bg-light">
-    <header class="vh-100 b">
-      <div class="container w-75">
-        <h1>The Flower Blog</h1>
-      </div>
-      <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+    <header class="vh-100 d-flex justify-content-center align-items-center">
+      <nav
+        class="navbar navbar-expand-lg bg-dark position-fixed w-100 top-0 z-3">
         <div class="container w-75">
+          <a class="navbar-brand text-white" href="#">The Flower Blog</a>
           <button
             class="navbar-toggler bg-white"
             type="button"
@@ -37,7 +36,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul
-              class="navbar-nav flex-lg-row justify-content-between w-100 mb-2 mb-lg-0">
+              class="navbar-nav flex-lg-row justify-content-evenly w-100 mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
                   class="nav-link active text-white"
@@ -69,7 +68,7 @@
         </div>
       </nav>
       <div class="container w-75 py-5 h-75">
-        <div class="card h-100 m-auto mt-5 rounded-4">
+        <div class="card h-100 m-auto rounded-4">
           <img
             src="./Images/intro_flower.png"
             class="img-fluid object-fit-fill h-100 rounded-4"
